@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Minecraft';
+  src: url('~/fonts/Minecraft.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  &.-inline {
+    height: fit-content;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px 10px;
+    background-color: transparent;
+  }
+
+  &.-dark-mode {
+    border-color: #fff;
+    color: #fff;
+  }
+}
